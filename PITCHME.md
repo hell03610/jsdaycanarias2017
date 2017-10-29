@@ -1,21 +1,25 @@
-I married EmberJs and you wont believe what happened next
+# Me casé con EmberJS y no vas a creer que pasó a continuación
 
 ---
 
-What does EmberJs look like?
+## Conociendo al novio: EmberJS en un pispás
 
 ---
 
-How is it working with EmberJs?
+## ¿Cómo es estar casad@ con EmberJS?
 
 ---
 
-Does't EmberJs look fun and exciting?
+## ¿Qué hay de nuevo, viejo?
 
 ---
 
-Tips for choosing a framework
+## Consejos matrimoniales
 
 ---
 
-Q & A
+## Dos no se pelean si uno no quiere
+
+---
+
+## Q & A
