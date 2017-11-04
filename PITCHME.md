@@ -26,7 +26,15 @@ Para ello te brinda un rico ecosistema de ** tooling, testing, addons y ayuda**
 
  1. ember-cli
  2. inspector de navegador
- 3. twiddle
+ 3. ember-twiddle
+
+---
+
+### Tooling
+
+ 1. <span class="gold">ember-cli</span>
+ 2. inspector de navegador
+ 3. ember-twiddle
 
 ---
 
@@ -40,7 +48,7 @@ Utilidad de linea de comandos basada en Broccoli, babel, ~npm y bower~, yarn
 
 ---
 
-###### ember-cli
+###### <span class="gold">ember-cli</span>
 
 ```shell
 > ember new jsday
@@ -50,7 +58,7 @@ Crea nuevos proyectos sin preocuparte de su estructura
 
 --- 
 
-###### ember-cli
+###### <span class="gold">ember-cli</span>
 
 ```shell
 |-app
@@ -74,7 +82,7 @@ testem.js
 
 ---
 
-###### ember-cli
+###### <span class="gold">ember-cli</span>
 
 ```shell
 > ember generate route contact-us
@@ -88,11 +96,11 @@ installing route-test
   create tests/unit/contact-us/route-test.js
 ```
 
-<span class="aside">Generadores: usa los generadores _built-in_ para seguir las prácticas más actuales (y sus correspondientes tests) </span>
+<span class="aside">**Generadores**: usa los generadores _built-in_ para seguir las prácticas más actuales (y sus correspondientes tests) </span>
 
 ---
 
-###### ember-cli
+###### <span class="gold">ember-cli</span>
 
 ```shell
 > ember serve
@@ -108,7 +116,7 @@ installing route-test
 
 ---
 
-###### ember-cli
+###### <span class="gold">ember-cli</span>
 
 ```shell
 > ember build --environment="production"
@@ -121,6 +129,38 @@ File sizes:
  - dist/assets/vendor-d41d8c.css: 0 B
  - dist/assets/vendor-fd395a.js: 737.24 KB (191.02 KB gzipped)
 ```
+
+---
+
+### Tooling
+
+ 1. ember-cli
+ 2. <span class="gold">inspector de navegador</span>
+ 3. ember-twiddle
+
+---
+
+###### <span class="gold">inspector de datos</span>
+
+![Inspector](assets/images/inspector.png)
+
+<span class="aside"> Para Chrome y Firefox</span>
+
+---
+
+### Tooling
+
+ 1. ember-cli
+ 2. inspector de navegador
+ 3. <span class="gold">ember-twiddle</span>
+
+---
+
+###### <span class="gold">ember-twiddle</span>
+
+![Inspector](assets/images/twiddle.png)
+
+<span class="aside">ember-twiddle.com</span>
 
 ---
 
