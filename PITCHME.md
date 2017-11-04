@@ -30,7 +30,7 @@ Para ello te brinda un rico ecosistema de ** tooling, testing, addons y ayuda**
 
 ---
 
-###### ember-cli
+###### <span class="gold">ember-cli</span>
 
 ```
  npm install -g ember-cli 
@@ -46,7 +46,7 @@ Utilidad de linea de comandos basada en Broccoli, babel, ~npm y bower~, yarn
 > ember new jsday
 ```
 
-@[1](Crea nuevos proyectos sin preocuparte de su estructura)
+Crea nuevos proyectos sin preocuparte de su estructura
 
 --- 
 
@@ -116,23 +116,28 @@ installing route-test
 cleaning up...
 Built project successfully. Stored in "dist/".
 File sizes:
- - dist/assets/jsday-af67185be14051fe394486ee1961dbaf.js: 5.38 KB (1.39 KB gzipped)
- - dist/assets/jsday-d41d8cd98f00b204e9800998ecf8427e.css: 0 B
- - dist/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css: 0 B
- - dist/assets/vendor-fd395a08caa91c093a31c61257b69910.js: 737.24 KB (191.02 KB gzipped)
+ - dist/assets/jsday-af67185.js: 5.38 KB (1.39 KB gzipped)
+ - dist/assets/jsday-d41d8cd.css: 0 B
+ - dist/assets/vendor-d41d8c.css: 0 B
+ - dist/assets/vendor-fd395a.js: 737.24 KB (191.02 KB gzipped)
 ```
 
 ---
 
 ### Testing
 
- - Totalmente integrado en el framework
- - Explicado en la web
- - 3 niveles: unitario, integración, aceptación
+ 1. Integrado en el framework 
+  	- generadores
+  	- qunit - mocha
+ 2. Tipos de test
+ 	- unitarios
+ 	- integración
+ 	- aceptación
 
 ---
 
 ### Addons
+
  - Expande las capacidades basicas de EmberJS
  - EmberData
  - Mantenidos por la comunidad, alguno de los mas importantes
