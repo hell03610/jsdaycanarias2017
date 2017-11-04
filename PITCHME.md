@@ -163,7 +163,7 @@ File sizes:
 ### Testing
 
 > Testing is a core part of the Ember framework and its development cycle.
-![Inspector](assets/images/testin.png)
+![Inspector](assets/images/testing.png)
 
 ---
 
@@ -174,7 +174,7 @@ File sizes:
 > ember test --serve --launch=Chrome
 ```
 
-<span class="aside">basado en [testem.js](https://github.com/testem/testem), corre con [phantomjs](http://phantomjs.org/) o headless chrome, por defecto usa (qunit)[https://qunitjs.com/] pero es fácil pasarse a [mocha](https://github.com/emberjs/ember-mocha)</span>
+<span class="aside">Basado en [testem.js](https://github.com/testem/testem), corre con [phantomjs](http://phantomjs.org/) o headless chrome, por defecto usa [qunit](https://qunitjs.com/) pero es fácil pasarse a [mocha](https://github.com/emberjs/ember-mocha)</span>
 
 ---
 
@@ -246,11 +246,14 @@ it('creates a new warehouse', function() {
 
 ### Addons
 
- - Expande las capacidades basicas de EmberJS
- - EmberData
- - Mantenidos por la comunidad, alguno de los mas importantes
+```shell
+> ember install ember-intl 
+```
+> Reusable libraries to solve common scenarios
 
-+++
+Algunos de los addons que usamos son: ember-data, ember-intl, ember-cp-validations, ember-cli-sass, ember-leaflet, ember-light-table, ember-cli-eslint
+
+---
 
 ### Ayuda
 
