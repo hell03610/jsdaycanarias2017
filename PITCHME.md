@@ -108,10 +108,6 @@ installing route-test
 > ember build --environment="production"
 ```
 
-@[1](Sirve el proyecto con un servidor de desarrollo)
-@[2](Construye el proyecto para desarrollo, por defecto en "dist/")
-@[3](Construye el proyecto para producción, por defecto en "dist/")
-
 <span class="aside">Construcción del proyecto: compilación de assets, finger-printing y gestión del pipeline de deploy</span>
 
 ---
@@ -166,13 +162,85 @@ File sizes:
 
 ### Testing
 
- 1. Integrado en el framework 
-  	- generadores
-  	- qunit - mocha
- 2. Tipos de test
- 	- unitarios
- 	- integración
- 	- aceptación
+> Testing is a core part of the Ember framework and its development cycle.
+![Inspector](assets/images/testin.png)
+
+---
+
+### Testing
+
+```shell
+> ember test
+> ember test --serve --launch=Chrome
+```
+
+<span class="aside">basado en [testem.js](https://github.com/testem/testem), corre con [phantomjs](http://phantomjs.org/) o headless chrome, por defecto usa (qunit)[https://qunitjs.com/] pero es fácil pasarse a [mocha](https://github.com/emberjs/ember-mocha)</span>
+
+---
+
+### Testing
+
+##### Tests unitarios
+
+```javascript
+describe('Collaborators > fround', function() {
+  it('rounds a number to its 4th decimal', function() {
+    expect(fround(0.1).toString()).to.eql("0.1");
+    expect(fround(0.12).toString()).to.eql("0.12");
+    expect(fround(0.123).toString()).to.eql("0.123");
+    expect(fround(0.1234).toString()).to.eql("0.1234");
+    expect(fround(0.12345).toString()).to.eql("0.1235");
+  });
+
+  it('two rounded numbers are the same', function() {
+    expect(0.1 + 0.2).to.not.eql(0.3);
+    expect(fround(0.1 + 0.2)).to.eql(fround(0.3));
+  });
+});
+```
+<span class="aside"> Objetos que no tienen representacion html: modelos, servicios, rutas, utils...</span> 
+
+---
+
+### Testing
+
+##### Tests de integración
+
+```javascript
+describe('Integration > Component > ag-toaster', function() {
+  setupComponentTest('ag-toaster', {
+    integration: true
+  });
+
+  it('renders an ag-alert success message', function() {
+    this.set('messages', [{ type: 'success', message: 'foobar' }]);
+    this.render(hbs`{{ag-toaster
+      messages=messages
+    }}`);
+    expect(this.$('.alert')).to.have.length(1);
+    expect(this.$('.alert').text()).to.include('foobar');
+  });
+});
+```
+<span class="aside">Para componentes, se mockean los datos y servicios</span> 
+
+---
+
+### Testing
+
+##### Tests de aceptación
+
+```javascript
+it('creates a new warehouse', function() {
+    visit('/configuration/warehouses/new');
+    fillIn('.form input[data-test-name="name"]', 'anything');
+    click('.form .button.-confirm');
+    andThen(function() {
+      expect(currentPath()).to.equal('configuration.warehouses.index');
+    });
+  });
+```
+<span class="aside">Son los más lentos: levantan toda la aplicación, se mockean las llamadas ajax</span> 
 
 ---
 
