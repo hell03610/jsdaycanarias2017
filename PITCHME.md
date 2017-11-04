@@ -163,6 +163,7 @@ File sizes:
 ### Testing
 
 > Testing is a core part of the Ember framework and its development cycle.
+
 ![Inspector](assets/images/testing.png)
 
 ---
@@ -249,9 +250,8 @@ it('creates a new warehouse', function() {
 ```shell
 > ember install ember-intl 
 ```
-> Reusable libraries to solve common scenarios
 
-Algunos de los addons que usamos son: ember-data, ember-intl, ember-cp-validations, ember-cli-sass, ember-leaflet, ember-light-table, ember-cli-eslint
+<span class="aside">Algunos de los addons que usamos son: ember-data, ember-intl, ember-cp-validations, ember-cli-sass, ember-leaflet, ember-light-table, ember-cli-eslint </span>
 
 ---
 
