@@ -7,7 +7,7 @@
 
 ---
 
-## ~Consejos~ Dudas matrimoniales
+## ~~Consejos~~ Dudas matrimoniales
 
 ---
 
@@ -25,13 +25,13 @@
 
 ###### Dudas matrimoniales
 
-> ¿Cuanta burocracia conlleva? ¿Tiene integrado tooling para deploy, test runners, builds por entorno, asset figerprinting...?
+> ¿Cuanta burocracia conlleva? ¿Tiene integrado tooling para deploy, test runners, builds por entorno, asset fingerprinting...?
 
 ---
 
 ###### Dudas matrimoniales
 
-> Voy a tener que mantener este producto durante un tiempo, ¿qué release plan tiene? ¿Cómo de fácil o doloroso es actualizar versiones? ¿Duante cuanto tiempo se mantienen?
+> Voy a tener que mantener este producto durante un tiempo, ¿qué release plan tiene? ¿Cómo de fácil es actualizar versiones? ¿Durante cuanto tiempo se mantienen?
 
 ---
 
@@ -56,7 +56,7 @@
 
 Te permite estar <span class="gold">enfocad@ en desarrollar</span> y publicar nuevas características en tu producto.
 
-Para ello te brinda un rico ecosistema de **tooling, testing, addons y ayuda**
+Para ello te brinda un rico ecosistema de **tooling, testing, addons y documentación**
 
 ---
 
@@ -82,7 +82,7 @@ Para ello te brinda un rico ecosistema de **tooling, testing, addons y ayuda**
  npm install -g ember-cli 
 ```
 
-Utilidad de linea de comandos basada en Broccoli, babel, ~npm y bower~, yarn
+Utilidad de linea de comandos basada en Broccoli, babel, ~~npm y bower~~, yarn
 
 ---
 
@@ -202,8 +202,6 @@ File sizes:
 
 > Testing is a core part of the Ember framework and its development cycle.
 
-![Inspector](assets/images/testing.png)
-
 ---
 
 ### Testing
@@ -293,14 +291,11 @@ it('creates a new warehouse', function() {
 
 ---
 
-### Ayuda
+## Documentación
 
 > emberjs.com
 
- - Documentación de la API
- - Ejemplo oficial desde creación de app hasta deploy
- - Extenso apartado para modelos, rutas, templates, componentes y testing
- 
+<span class="aside"> Documentación de la API, aplicación de ejemplo y extenso apartado para modelos, rutas, templates, componentes y testeo</span> 
 
 ---
 
@@ -308,13 +303,20 @@ it('creates a new warehouse', function() {
 
 ---
 
-### Actualizando el framework
- 
- - Release cicle, canary
- - LTS 
- - Deprecations
- - Blog post
- - RFC
+
+###### Release cicle, canary, LTS
+
+###### Y yo como me entero?
+
+  Blog posts, deprecations
+
+###### Hacia donde vamos
+
+  RFC
+
+---
+
+## ¿Cómo es estar casad@ con EmberJS?
 
 ---
 
