@@ -291,29 +291,43 @@ it('creates a new warehouse', function() {
 
 ---
 
-## Documentación
+### Documentación
 
-> emberjs.com
+![Learn](assets/images/documentacion.png)
+
+---
+
+### Documentación
+
+> emberjs.com/learn/
 
 <span class="aside"> Documentación de la API, aplicación de ejemplo y extenso apartado para modelos, rutas, templates, componentes y testeo</span> 
 
 ---
 
+### Documentación
+
 > embercommunity.slack.com
 
 - ~10k usuarios
 - #announcements, #help, #jobs
-- #ember-cli, #ember-data, #e-leaftle, #e-light-table
+- #ember-cli, #ember-data, #e-leaftlet...
 
 ---
 
-## Documentación
+### Documentación
 
 > twiddle.com
 
 ---
 
 ## ¿Qué hay de nuevo, viejo?
+
+---
+
+###### Ciclo de release
+
+![Zoey](assets/images/zoey.png)
 
 ---
 
@@ -345,12 +359,12 @@ it('creates a new warehouse', function() {
 
 ---
 
-## Recapitulando...
+## Recapitulando
 
-- Curva de aprendizaje: estandarización, documentación y ayuda
-- Añadiendo funcionalidad: addons
-- Puesta en producción: Tooling del proyecto
-- Mantenimiento: tests y actualizaciones
+- **Curva de aprendizaje**: estandarización, documentación y ayuda
+- Añadiendo **funcionalidad**: addons
+- **Puesta en producción**: Tooling del proyecto
+- **Mantenimiento**: tests y actualizaciones
 
 ---
 
