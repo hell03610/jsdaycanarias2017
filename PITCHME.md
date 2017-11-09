@@ -299,20 +299,58 @@ it('creates a new warehouse', function() {
 
 ---
 
+> embercommunity.slack.com
+
+- ~10k usuarios
+- #announcements, #help, #jobs
+- #ember-cli, #ember-data, #e-leaftle, #e-light-table
+
+---
+
+## Documentación
+
+> twiddle.com
+
+---
+
 ## ¿Qué hay de nuevo, viejo?
 
 ---
 
+###### Ciclo de release
 
-###### Release cicle, canary, LTS
+![Release cicle](assets/images/release.png)
+
+<span class="aside">Versioneado semantico, nueva version cada 6 semanas, betas dispoibles, LTS cada 4 releases</span>
+
+---
 
 ###### Y yo como me entero?
 
-  Blog posts, deprecations
+ - Canal #announcements
+ - Blog posts con deprecations de la versión actual y la beta
+ - Se deja tiempo al desarrollador para resolver las deprecations hasta la siguiente version mayor
+
+ <span class="aside">Ejemplo: https://emberjs.com/blog/2017/09/01/ember-2-15-released.html</span>
+
+--- 
 
 ###### Hacia donde vamos
 
-  RFC
+> https://github.com/emberjs/rfcs
+  
+  Mantenido por la comunidad
+
+<span class="aside"> Ejemplo: https://github.com/emberjs/rfcs/pull/252 </span>
+
+---
+
+## Recapitulando...
+
+- Curva de aprendizaje: estandarización, documentación y ayuda
+- Añadiendo funcionalidad: addons
+- Puesta en producción: Tooling del proyecto
+- Mantenimiento: tests y actualizaciones
 
 ---
 
