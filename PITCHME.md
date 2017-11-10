@@ -1,9 +1,15 @@
 # Me casé con <span class="gold">EmberJS</span>
 #### y no vas a creer que pasó a continuación
 
+<span class="aside">Emma Lopez ~ @hell03610</span>
+
 ---
 
 ![Ember](assets/images/hackernews.png)
+
+---
+
+## .me
 
 ---
 
@@ -335,11 +341,11 @@ it('creates a new warehouse', function() {
 
 ![Release cicle](assets/images/release.png)
 
-<span class="aside">Versioneado semantico, nueva version cada 6 semanas, betas dispoibles, LTS cada 4 releases</span>
+<span class="aside">Versioneado semantico, nueva version cada 6 semanas, betas disponibles, LTS cada 4 releases</span>
 
 ---
 
-###### Y yo como me entero?
+###### Y yo cómo me entero?
 
  - Canal #announcements
  - Blog posts con deprecations de la versión actual y la beta
